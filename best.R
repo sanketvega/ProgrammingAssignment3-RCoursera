@@ -28,10 +28,8 @@ best <- function(state, outcome) {
       stop("Invalid state")
    }
   
-  
   ## Return hospital name in that state with lowest 30-day death
   ## rate
   options(warn=-1)
   selection
-  
 }
